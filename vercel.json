@@ -1,21 +1,14 @@
 {
   "env": {
-    "NEXT_PUBLIC_API_BASE_URL": "https://app.quiz.softivus.com",
-    "NEXT_PUBLIC_BASE_URL": "https://quiz.softivus.com",
-    "NEXT_PUBLIC_TOKEN_NAME": "007-g5"
+    "NEXT_PUBLIC_API_BASE_URL": "https://admin.blogclue.com",
+    "NEXT_PUBLIC_BASE_URL": "https://blogclue.com",
+    "NEXT_PUBLIC_TOKEN_NAME": "quizix_token"
   },
   "build": {
     "env": {
-      "NEXT_PUBLIC_API_BASE_URL": "https://app.quiz.softivus.com",
-      "NEXT_PUBLIC_BASE_URL": "https://quiz.softivus.com",
-      "NEXT_PUBLIC_TOKEN_NAME": "007-g5"
+      "NEXT_PUBLIC_API_BASE_URL": "https://admin.blogclue.com",
+      "NEXT_PUBLIC_BASE_URL": "https://blogclue.com",
+      "NEXT_PUBLIC_TOKEN_NAME": "quizix_token"
     }
-  },
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/sign-in",
-      "permanent": true
-    }
-  ]
+  }
 }
