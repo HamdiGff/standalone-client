@@ -10,5 +10,12 @@
       "NEXT_PUBLIC_BASE_URL": "https://quiz.softivus.com",
       "NEXT_PUBLIC_TOKEN_NAME": "007-g5"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/sign-in",
+      "permanent": true
+    }
+  ]
 }
